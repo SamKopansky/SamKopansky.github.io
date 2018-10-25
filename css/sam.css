@@ -1,0 +1,111 @@
+body {
+    position: relative;
+}
+
+#navbar-buffer {
+	height: 50px;
+	width: 100%;
+}
+
+.navbar {
+	background-color: #65955D;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #CBC49A;
+}
+
+.navbar .navbar-nav > li > a, .navbar .navbar-brand {
+	color: #CBC49A;
+}
+
+.divider {
+	height: 1px;
+    width: 90%;
+    background-color: #CBC49A; 
+}
+.divider-padded {
+	height: 1px;
+    width: 90%;
+    background-color: #CBC49A; 
+    margin: 40px;
+}
+
+.title {
+	text-align: center;
+    padding-bottom: 20px;
+}
+
+.org {
+	text-align: center;
+}
+
+a {
+    color: #65955D;
+}
+
+a:hover {
+	color: #BDBDBD;
+}
+
+#top {
+	padding-top: 50px;
+}
+
+#main {
+	height: 100%;
+}
+
+#tall-pic {
+	height: 100%;
+	padding-right: 0px;
+	overflow: hidden;
+}
+
+#full-body {
+	width: 100%;
+}
+
+#tall-col {
+	height: 100%;
+}
+
+.third {
+	margin: 30px;
+}
+
+.description {
+    width: 600px;
+    margin: 10px auto;
+}
+
+.project-pic {
+    height: 400px;
+    width: auto;
+}
+
+.proj {
+    text-align: center;
+    padding: 20px;
+}
+
+#footer {
+    margin: 50px;
+    text-align: center;
+}
+
+.button {
+	border-color: #BDBDBD;
+}
+
+@media only screen and (max-width: 768px) {
+	.collapse, .in {
+		background-color: #BDBDBD;
+	}
+	.collapse ul li a, .in ul li a {
+		color: #65955D!important;
+	}
+	.collapse ul li a:hover, .in ul li a:hover {
+		color: #CBC49A!important;
+	}
+}
