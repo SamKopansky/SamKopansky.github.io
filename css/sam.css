@@ -19,6 +19,10 @@ body {
 	color: #CBC49A;
 }
 
+.row {
+    margin: 0;
+}
+
 .divider {
 	height: 1px;
     width: 90%;
@@ -58,8 +62,8 @@ a:hover {
 
 #tall-pic {
 	height: 100%;
-	padding-right: 0px;
-	overflow: hidden;
+    padding: 0;
+    overflow: hidden;
 }
 
 #full-body {
@@ -68,6 +72,7 @@ a:hover {
 
 #tall-col {
 	height: 100%;
+    padding: 0;
 }
 
 .third {
@@ -75,18 +80,18 @@ a:hover {
 }
 
 .description {
-    width: 600px;
+    width: 70%;
     margin: 10px auto;
 }
 
 .project-pic {
-    height: 400px;
-    width: auto;
+    width: 400px;
+    height: auto;
 }
 
 .proj {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 #footer {
@@ -108,4 +113,10 @@ a:hover {
 	.collapse ul li a:hover, .in ul li a:hover {
 		color: #CBC49A!important;
 	}
+    .project-pic {
+        width: 100%;
+    }
+    .description {
+        width: 90%;
+    }
 }
