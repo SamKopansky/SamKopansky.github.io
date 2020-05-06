@@ -1,122 +1,101 @@
 body {
     position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #03400d;
 }
 
-#navbar-buffer {
-	height: 50px;
-	width: 100%;
+h1 {
+    font-family: 'Bangers', cursive;
 }
 
-.navbar {
-	background-color: #65955D;
+h2 {
+    font-family: 'Bangers', cursive;
 }
 
-.navbar .navbar-toggle .icon-bar {
-    background-color: #CBC49A;
+#title {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ebfaed;
+    background-color: #03400d;
 }
 
-.navbar .navbar-nav > li > a, .navbar .navbar-brand {
-	color: #CBC49A;
+    
+@media only screen and (max-width: 480px) {
+    #title {
+        font-size: 30px;   
+    }
 }
 
-.row {
+#title > h1 {
+    margin: 30px 15px;
+}
+
+.floating-heads {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.floating-heads > img {
+    margin: 30px 20px;
+    height: 30px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#about-me > h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+}
+
+#the-deets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.deet-card {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.deet-card > h2 {
     margin: 0;
 }
 
-.divider {
-	height: 1px;
-    width: 90%;
-    background-color: #CBC49A; 
-}
-.divider-padded {
-	height: 1px;
-    width: 90%;
-    background-color: #CBC49A; 
-    margin: 40px;
-}
-
-.title {
-	text-align: center;
-    padding-bottom: 20px;
-}
-
-.org {
-	text-align: center;
-}
-
-a {
-    color: #65955D;
-}
-
-a:hover {
-	color: #BDBDBD;
-}
-
-#top {
-	padding-top: 50px;
-}
-
-#main {
-	height: 100%;
-}
-
-#tall-pic {
-	height: 100%;
-    padding: 0;
-    overflow: hidden;
-}
-
-#full-body {
-	width: 100%;
-}
-
-#tall-col {
-	height: 100%;
-    padding: 0;
-}
-
-.third {
-	margin: 30px;
-}
-
-.description {
-    width: 70%;
-    margin: 10px auto;
-}
-
-.project-pic {
-    width: 400px;
-    height: auto;
-}
-
-.proj {
-    text-align: center;
-    padding: 20px 0;
+.deet-card > ul > li {
+    margin-bottom: 5px;
 }
 
 #footer {
-    margin: 50px;
+    width: 100%;
     text-align: center;
+    margin-top: 20px;
+    padding: 30px 0;
+    background-color: #ebfaed;
 }
 
-.button {
-	border-color: #BDBDBD;
+a {
+    color: #03400d;
 }
 
-@media only screen and (max-width: 768px) {
-	.collapse, .in {
-		background-color: #BDBDBD;
-	}
-	.collapse ul li a, .in ul li a {
-		color: #65955D!important;
-	}
-	.collapse ul li a:hover, .in ul li a:hover {
-		color: #CBC49A!important;
-	}
-    .project-pic {
-        width: 100%;
-    }
-    .description {
-        width: 90%;
-    }
+a:hover {
+	color: #bdbdbd;
 }
