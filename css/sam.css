@@ -61,14 +61,24 @@ h2 {
     width: 100%;
 }
 
-#about-me > h2 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 500;
-    font-size: 28px;
+#about-me-text {
     padding: 20px;
     margin: auto;
     width: 500px;
 }
+
+#about-me-text > h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    100% { opacity: 1; }
+  }  
 
 #profile-pic {
     width: 500px;
